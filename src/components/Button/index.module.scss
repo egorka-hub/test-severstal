@@ -1,0 +1,25 @@
+@import "src/assets/styles/colors";
+
+.button {
+  margin-top: 24px;
+  min-width: 240px;
+  cursor: pointer;
+  height: 42px;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 9px 18px;
+  border: 0;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 16px;
+  color: $gray;
+  background-color: $blue;
+  transition: background-color ease-in .1s;
+
+  &:hover {
+    background-color: $blackBlue;
+  }
+}

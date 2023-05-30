@@ -1,0 +1,15 @@
+@import "src/assets/styles/colors";
+
+.link {
+  cursor: pointer;
+  color: $gray;
+  transition: color ease-in .1s;
+
+  &:active, &:visited {
+    color: $gray;
+  }
+
+  &:hover {
+    color: $blackBlue;
+  }
+}
